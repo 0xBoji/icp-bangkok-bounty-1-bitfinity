@@ -1,0 +1,10 @@
+[
+  {
+    "match": "**/*",
+    "headers": {
+      "Access-Control-Allow-Origin": "*",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "security_policy": "standard"
+  }
+]
